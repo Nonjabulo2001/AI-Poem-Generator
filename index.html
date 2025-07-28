@@ -6,6 +6,7 @@
     <title>AI Generator</title>
     <link rel="stylesheet" href="src/index.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -18,7 +19,7 @@
     </header>
     <main>
         <form id="poem">
-            <input type="text" placeholder="Enter a topic of the French poem" autofocus required class="instructions">
+            <input type="text" placeholder="Enter a topic of the French poem" autofocus required class="instructions" id="instructions">
             <input type="submit" class="button">
         </form>
 
